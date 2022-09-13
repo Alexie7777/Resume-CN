@@ -10,11 +10,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-import VueClipboard from "vue3-clipboard";
+import { VueClipboard } from "@soerenmartius/vue3-clipboard";
+import ToastPlugin from "vue-toast-notification";
+import "vue-toast-notification/dist/theme-sugar.css";
 
 library.add(faUserCheck, faGithub, faMobileScreen, faAt);
 
 const app = createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)
   .use(VueClipboard)
+  .use(ToastPlugin)
   .mount("#app");
