@@ -1,6 +1,8 @@
 <template>
   <div>
-    <!-- <button class="btn-hover color-1 absolute right-72">保存为 PDF</button> -->
+    <button class="btn-hover color-1 absolute right-72">
+      <a download="resume.pdf" href="/public/Resume.pdf">保存为 PDF </a>
+    </button>
     <div class="flex justify-center items-center">
       <div class="m-10 text-neutral-600 max-w-4xl">
         <div class="flex justify-between">
