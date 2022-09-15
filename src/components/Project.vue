@@ -10,7 +10,7 @@
             <b>项目介绍：</b> <br />该项目承载移动 7000余台 BOSS,CRM
             核心业务机器的监控管理功能;<br />
             该项目前端使用 AntD Pro Vue , 后端使用第三方开源组件 zabbix
-            提供监控数据采集,
+            提供监控数据采集
           </p>
           <p>
             <b> 主要负责: </b>
@@ -37,6 +37,7 @@
           <li>xlsx</li>
           <li>axios</li>
           <li>ViserJS</li>
+          <li>zabbix</li>
         </ul>
       </div>
     </div>
