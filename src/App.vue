@@ -152,8 +152,10 @@ import Project from "@/components/Project.vue";
 
 const $toast = useToast();
 
-function onCopy(e: Event) {
-  toClipboard(e.target.textContent);
+function onCopy(e: MouseEvent) {
+  console.log(e);
+  const button = e.target as HTMLButtonElement;
+  toClipboard(button.innerText);
   $toast.success("复制成功");
 }
 </script>
