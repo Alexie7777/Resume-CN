@@ -18,6 +18,7 @@ specifiers:
   vue: ^3.2.37
   vue-toast-notification: ^3.0
   vue-tsc: ^0.40.4
+  vuestic-ui: ^1.4.10
 
 dependencies:
   '@fortawesome/fontawesome-svg-core': 6.2.0
@@ -30,6 +31,7 @@ dependencies:
   '@types/node': 18.7.16
   vue: 3.2.39
   vue-toast-notification: 3.0.4_vue@3.2.39
+  vuestic-ui: 1.4.10_vue@3.2.39
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
@@ -409,6 +411,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /cleave.js/1.6.0:
+    resolution: {integrity: sha512-ivqesy3j5hQVG3gywPfwKPbi/7ZSftY/UNp5uphnqjr25yI2CP8FS2ODQPzuLXXnNLi29e2+PgPkkiKUXLs/Nw==}
+    dev: false
+
   /clipboard/2.0.11:
     resolution: {integrity: sha512-C+0bbOqkezLIsmWSvlsXS0Q0bmkugu7jcfMIACB+RDEntIzQIkdr148we28AfSloQLRdZlYL/QYyrq05j/3Faw==}
     dependencies:
@@ -420,6 +426,10 @@ packages:
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
+
+  /colortranslator/1.9.2:
+    resolution: {integrity: sha512-Hr1qCLwL/5gbGhcRwfhl1+JbvHmybTGbecpbhyzn3IyizgYFxMpLpX8OGhAcvSPB0+K2bwrAcFIbeF60wqOJLg==}
+    dev: false
 
   /concat-map/0.0.1:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
@@ -865,6 +875,10 @@ packages:
     resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
     dev: false
 
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
@@ -1303,6 +1317,17 @@ packages:
       '@vue/runtime-dom': 3.2.39
       '@vue/server-renderer': 3.2.39_vue@3.2.39
       '@vue/shared': 3.2.39
+
+  /vuestic-ui/1.4.10_vue@3.2.39:
+    resolution: {integrity: sha512-DR5sXolVrXYavRMYqZQnr8WCHY+ftMDJnszDdIWmPKVLZSqfY0bSTxd8oM416boAsN6cZz4qXwYLYdZOPfNWYg==}
+    peerDependencies:
+      vue: ^3.0.4
+    dependencies:
+      cleave.js: 1.6.0
+      colortranslator: 1.9.2
+      lodash: 4.17.21
+      vue: 3.2.39
+    dev: false
 
   /when/3.6.4:
     resolution: {integrity: sha512-d1VUP9F96w664lKINMGeElWdhhb5sC+thXM+ydZGU3ZnaE09Wv6FaS+mpM9570kcDs/xMfcXJBTLsMdHEFYY9Q==}

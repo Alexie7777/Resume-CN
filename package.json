@@ -18,7 +18,8 @@
     "@soerenmartius/vue3-clipboard": "^0.1.2",
     "@types/node": "^18.7.16",
     "vue": "^3.2.37",
-    "vue-toast-notification": "^3.0"
+    "vue-toast-notification": "^3.0",
+    "vuestic-ui": "^1.4.10"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",

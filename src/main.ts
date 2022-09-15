@@ -16,7 +16,7 @@ import "vue-toast-notification/dist/theme-sugar.css";
 
 library.add(faUserCheck, faGithub, faMobileScreen, faAt);
 
-const app = createApp(App)
+createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)
   .use(VueClipboard)
   .use(ToastPlugin)
