@@ -1,13 +1,13 @@
 <template>
   <div>
-    <button class="btn-hover color-1 absolute right-72">
-      <a
-        style="text-decoration: none"
-        download="resume.pdf"
-        href="/public/Resume.pdf"
-        >保存为 PDF
-      </a>
-    </button>
+    <!-- <button class="btn-hover color-1 absolute right-72"> -->
+    <!--   <a -->
+    <!--     style="text-decoration: none" -->
+    <!--     download="resume.pdf" -->
+    <!--     href="/public/Resume.pdf" -->
+    <!--     >保存为 PDF -->
+    <!--   </a> -->
+    <!-- </button> -->
     <div class="flex justify-center items-center">
       <div class="m-10 text-neutral-600 max-w-4xl">
         <div class="flex justify-between">
@@ -56,7 +56,7 @@
             </div>
 
             <div class="flex ml-36 mr-auto flex-col gap-1 mb-5">
-              <h4 class="text-xl font-bold">前端开发 & Linux 运维工程师</h4>
+              <h4 class="text-xl font-bold">前端开发工程师</h4>
               <p>广东丰德科技有限公司</p>
               <p class="max-w-md pl-5 text-neutral-500">
                 驻场中国移动广东分公司，负责运维监控系统前端搭建、可复用组件方案指定、性能优化等相关工作；<br />负责zabbix
@@ -93,7 +93,10 @@
           <h2 class="text-2xl mb-5 font-bold">🧑‍💻 个人评价</h2>
           <ul class="list-disc pl-10">
             <li>熟悉 Vue, React, HTML5，CSS3，AJAX 等前端技术</li>
-            <li>熟悉 JavaScript，了解 TypeScript，掌握 ES6 以上常用语法</li>
+            <li>
+              熟悉 JavaScript 及 Node 环境，了解 TypeScript，掌握 ES6
+              以上常用语法
+            </li>
             <li>熟悉前端工程化、Git，熟悉 Webpack、Vite构建工具的原理</li>
             <li>拥有敏感的技术嗅觉，对新技术有好奇心</li>
             <li>熟悉终端环境，热衷于 CLI、TUI 工作环境</li>

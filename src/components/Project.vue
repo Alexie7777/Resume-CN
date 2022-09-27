@@ -121,6 +121,46 @@
         </ul>
       </div>
     </div>
+
+    <div class="flex justify-between mb-10">
+      <div class="max-w-lg">
+        <h4 class="text-xl font-bold">文件分享APP</h4>
+        <div class="p-2 pl-5">
+          <p>
+            <b>项目介绍：</b>该项目使用Vue3 + Naive UI 完成前端构建, 使用
+            MongoDB 作为数据库存储待分享的 APP, 使用 Node + Mongoose
+            作为后端操作数据库, 使用 bcrypt 进行加密
+          </p>
+          <p>
+            <b> 项目地址: </b>
+            <a
+              target="_blank"
+              class="text-neutral-500"
+              href="https://file-sharing.alex7777.club"
+              >https://file-sharing.alex7777.club</a
+            >
+          </p>
+          <p>
+            <b> 仓库地址: </b>
+            <a
+              target="_blank"
+              class="text-neutral-500"
+              href="https://github.com/Alexie7777/FileSharing"
+              >https://github.com/Alexie7777/FileSharing</a
+            >
+          </p>
+        </div>
+      </div>
+      <div>
+        <b>🪜 技术栈: </b>
+        <ul class="list-disc pl-10">
+          <li>Vue3</li>
+          <li>Node</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
